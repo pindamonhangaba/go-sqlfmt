@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kanmu/go-sqlfmt/sqlfmt/lexer"
+	"github.com/pindamonhangaba/go-sqlfmt/lexer"
 )
 
 func TestNewRetriever(t *testing.T) {

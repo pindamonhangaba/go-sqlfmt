@@ -15,7 +15,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/kanmu/go-sqlfmt/sqlfmt"
+	"github.com/pindamonhangaba/go-sqlfmt"
 )
 
 var (

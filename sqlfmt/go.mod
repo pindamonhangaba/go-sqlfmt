@@ -1,4 +1,4 @@
-module github.com/pindamonhangaba/go-sqlfmt
+module github.com/pindamonhangaba/go-sqlfmt/sqlfmt
 
 go 1.13
 

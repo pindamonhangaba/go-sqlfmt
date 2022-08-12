@@ -3,8 +3,8 @@ package parser
 import (
 	"fmt"
 
-	"github.com/pindamonhangaba/go-sqlfmt/lexer"
-	"github.com/pindamonhangaba/go-sqlfmt/parser/group"
+	"github.com/pindamonhangaba/go-sqlfmt/sqlfmt/lexer"
+	"github.com/pindamonhangaba/go-sqlfmt/sqlfmt/parser/group"
 	"github.com/pkg/errors"
 )
 

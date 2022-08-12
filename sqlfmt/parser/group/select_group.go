@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/pindamonhangaba/go-sqlfmt/lexer"
+	"github.com/pindamonhangaba/go-sqlfmt/sqlfmt/lexer"
 	"github.com/pkg/errors"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pindamonhangaba/go-sqlfmt/lexer"
+	"github.com/pindamonhangaba/go-sqlfmt/sqlfmt/lexer"
 )
 
 // Reindenter interface

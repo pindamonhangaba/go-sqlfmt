@@ -1,7 +1,7 @@
 # sqlfmt
 
 [![Build Status](https://travis-ci.org/pindamonhangaba/go-sqlfmt.svg?branch=master)](https://travis-ci.org/pindamonhangaba/go-sqlfmt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pindamonhangaba/go-sqlfmt)](https://goreportcard.com/report/github.com/pindamonhangaba/go-sqlfmt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pindamonhangaba/go-sqlfmt/sqlfmt)](https://goreportcard.com/report/github.com/pindamonhangaba/go-sqlfmt/sqlfmt)
 
 ## Description
 
@@ -173,7 +173,7 @@ run git clone and go build -o sqlfmt
 Thank you for thinking of contributing to the sqlfmt!
 Pull Requests are welcome!
 
-1. Fork ([https://github.com/pindamonhangaba/go-sqlfmt))
+1. Fork ([https://github.com/pindamonhangaba/go-sqlfmt/sqlfmt))
 2. Create a feature branch
 3. Commit your changes
 4. Rebase your local changes against the master branch

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/pindamonhangaba/go-sqlfmt/lexer"
+	"github.com/pindamonhangaba/go-sqlfmt/sqlfmt/lexer"
 )
 
 func TestReindentInsertGroup(t *testing.T) {

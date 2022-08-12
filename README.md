@@ -1,7 +1,7 @@
 # sqlfmt
 
 [![Build Status](https://travis-ci.org/kanmu/go-sqlfmt.svg?branch=master)](https://travis-ci.org/kanmu/go-sqlfmt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kanmu/go-sqlfmt)](https://goreportcard.com/report/github.com/kanmu/go-sqlfmt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pindamonhangaba/go-sqlfmt)](https://goreportcard.com/report/github.com/pindamonhangaba/go-sqlfmt)
 
 ## Description
 
@@ -85,16 +85,18 @@ ORDER BY
 ## Installation
 
 ```bash
-run git clone and go build -o sqlfmt 
+run git clone and go build -o sqlfmt
 ```
+
 ## Usage
 
-- Provide flags and input files or directory  
+- Provide flags and input files or directory
   ```bash
-  $ sqlfmt -w input_file.go 
+  $ sqlfmt -w input_file.go
   ```
 
 ## Flags
+
 ```
   -l
 		Do not print reformatted sources to standard output.
@@ -108,13 +110,13 @@ run git clone and go build -o sqlfmt
                 Do not print reformatted sources to standard output.
                 If a file's formatting is different from src, overwrite it
                 with gofmt style.
-  -distance     
+  -distance
                 Write the distance from the edge to the begin of SQL statements
 ```
 
 ## Limitations
 
-- The `sqlfmt` is only able to format SQL statements that are surrounded with **back quotes** and values in **`QueryRow`**, **`Query`**, **`Exec`**  functions from the `"database/sql"` package.
+- The `sqlfmt` is only able to format SQL statements that are surrounded with **back quotes** and values in **`QueryRow`**, **`Query`**, **`Exec`** functions from the `"database/sql"` package.
 
   The following SQL statements will be formatted:
 
@@ -150,19 +152,16 @@ run git clone and go build -o sqlfmt
 - `WITHIN GROUP`
 - `DISTINCT ON(xxx)`
 - `select(array)`
-- Comments after commna such as 
-`select xxxx, --comment
-        xxxx
-`
+- Comments after commna such as
+  `select xxxx, --comment xxxx `
 - Nested square brackets or braces such as `[[xx], xx]`
+
   - Currently being formatted into this: `[[ xx], xx]`
   - Ideally, it should be formatted into this: `[[xx], xx]`
 
 - Nested functions such as `sum(average(xxx))`
   - Currently being formatted into this: `SUM( AVERAGE(xxx))`
   - Ideally, it should be formatted into this: `SUM(AVERAGE(xxx))`
-  
- 
 
 ## Future Work
 
@@ -174,7 +173,7 @@ run git clone and go build -o sqlfmt
 Thank you for thinking of contributing to the sqlfmt!
 Pull Requests are welcome!
 
-1. Fork ([https://github.com/kanmu/go-sqlfmt))
+1. Fork ([https://github.com/pindamonhangaba/go-sqlfmt))
 2. Create a feature branch
 3. Commit your changes
 4. Rebase your local changes against the master branch

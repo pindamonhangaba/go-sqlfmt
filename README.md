@@ -1,6 +1,6 @@
 # sqlfmt
 
-[![Build Status](https://travis-ci.org/kanmu/go-sqlfmt.svg?branch=master)](https://travis-ci.org/kanmu/go-sqlfmt)
+[![Build Status](https://travis-ci.org/pindamonhangaba/go-sqlfmt.svg?branch=master)](https://travis-ci.org/pindamonhangaba/go-sqlfmt)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pindamonhangaba/go-sqlfmt)](https://goreportcard.com/report/github.com/pindamonhangaba/go-sqlfmt)
 
 ## Description
